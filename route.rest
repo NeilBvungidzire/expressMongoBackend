@@ -1,0 +1,40 @@
+GET http://localhost:3000/subscribers
+    
+
+###
+
+GET http://localhost:3000/subscribers/622f7c03178d070c2b74ab79
+
+
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Takudzwa",
+    "subscribedToChannel": "NECZIM"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/622f7c03178d070c2b74ab79
+
+
+###
+
+PATCH http://localhost:3000/subscribers/622f7fea16e2b72bc6708d98
+Content-Type: application/json
+
+{
+    "name": "Updated Takudzwa",
+    "subscribedToChannel": "Updated NECZIM"
+}
+
+
+
+
+
+
